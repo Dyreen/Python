@@ -51,27 +51,27 @@ print list
 
 
 def rem(a):
-    a=(x%3 for x in range(110,150))
+    a=(y%3 for y in range(110,150))
     return a      
 
 
 
 
-def sorted(a,b,c):
-    k= a+b+c
-    print(k)
+def sorted(w,x,y):
+    g= w+x+y
+    print(g)
 
 
 
-def divisible_by_three(n):
-    div= (range(1,n+1))/3
+def divisible_by_three(m):
+    div= (range(1,m+1))/3
     print (div)
 
 
-def flatlist(x):
-    x= [[1,2],[3,4],[5,6]]
+def flatlist(y):
+    y= [[1,2],[3,4],[5,6]]
     flatlist=[]
-    for sublist in x:
+    for sublist in y:
         for number in sublist:
             flatlist.append(number)
             print(flatlist)
